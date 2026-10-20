@@ -16,6 +16,7 @@ import {
   UsersRound,
   X,
 } from "lucide-react";
+import libraryBadge from "./assets/good-things-grow-here.png";
 import libraryBooksPhoto from "./assets/bright-future-library-books.jpeg";
 
 const navigation = [
@@ -263,9 +264,7 @@ function App() {
         <section className="intro-section section-pad" id="about">
           <div className="container intro-grid">
             <div className="intro-stamp">
-              <span className="stamp-sun">✳</span>
-              <span>GOOD THINGS<br />GROW HERE</span>
-              <BookOpen size={28} strokeWidth={1.4} />
+              <img src={libraryBadge} alt="Good things grow here" />
             </div>
             <div className="intro-copy">
               <span className="eyebrow">A LITTLE ABOUT US</span>
